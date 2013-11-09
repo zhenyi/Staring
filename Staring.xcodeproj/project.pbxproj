@@ -10,14 +10,13 @@
 		FE3D76BE182DD075002A9F31 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D76BD182DD075002A9F31 /* Cocoa.framework */; };
 		FE3D76C8182DD075002A9F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE3D76C6182DD075002A9F31 /* InfoPlist.strings */; };
 		FE3D76CA182DD075002A9F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D76C9182DD075002A9F31 /* main.m */; };
-		FE3D76CE182DD075002A9F31 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FE3D76CC182DD075002A9F31 /* Credits.rtf */; };
 		FE3D76D1182DD075002A9F31 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D76D0182DD075002A9F31 /* ZYAppDelegate.m */; };
-		FE3D76D4182DD075002A9F31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3D76D2182DD075002A9F31 /* MainMenu.xib */; };
 		FE3D76D6182DD075002A9F31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3D76D5182DD075002A9F31 /* Images.xcassets */; };
 		FE3D76DD182DD075002A9F31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D76DC182DD075002A9F31 /* XCTest.framework */; };
 		FE3D76DE182DD075002A9F31 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D76BD182DD075002A9F31 /* Cocoa.framework */; };
 		FE3D76E6182DD075002A9F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE3D76E4182DD075002A9F31 /* InfoPlist.strings */; };
 		FE3D76E8182DD076002A9F31 /* StaringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D76E7182DD076002A9F31 /* StaringTests.m */; };
+		FEEB3B18182DD10800F989ED /* ZYSimpleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB3B17182DD10800F989ED /* ZYSimpleLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +39,16 @@
 		FE3D76C7182DD075002A9F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE3D76C9182DD075002A9F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE3D76CB182DD075002A9F31 /* Staring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Staring-Prefix.pch"; sourceTree = "<group>"; };
-		FE3D76CD182DD075002A9F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FE3D76CF182DD075002A9F31 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
 		FE3D76D0182DD075002A9F31 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
-		FE3D76D3182DD075002A9F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FE3D76D5182DD075002A9F31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FE3D76DB182DD075002A9F31 /* StaringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3D76DC182DD075002A9F31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FE3D76E3182DD075002A9F31 /* StaringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaringTests-Info.plist"; sourceTree = "<group>"; };
 		FE3D76E5182DD075002A9F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE3D76E7182DD076002A9F31 /* StaringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaringTests.m; sourceTree = "<group>"; };
+		FEEB3B16182DD10800F989ED /* ZYSimpleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSimpleLabel.h; sourceTree = "<group>"; };
+		FEEB3B17182DD10800F989ED /* ZYSimpleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSimpleLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +116,8 @@
 			children = (
 				FE3D76CF182DD075002A9F31 /* ZYAppDelegate.h */,
 				FE3D76D0182DD075002A9F31 /* ZYAppDelegate.m */,
-				FE3D76D2182DD075002A9F31 /* MainMenu.xib */,
+				FEEB3B16182DD10800F989ED /* ZYSimpleLabel.h */,
+				FEEB3B17182DD10800F989ED /* ZYSimpleLabel.m */,
 				FE3D76D5182DD075002A9F31 /* Images.xcassets */,
 				FE3D76C4182DD075002A9F31 /* Supporting Files */,
 			);
@@ -131,7 +131,6 @@
 				FE3D76C6182DD075002A9F31 /* InfoPlist.strings */,
 				FE3D76C9182DD075002A9F31 /* main.m */,
 				FE3D76CB182DD075002A9F31 /* Staring-Prefix.pch */,
-				FE3D76CC182DD075002A9F31 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,8 +232,6 @@
 			files = (
 				FE3D76C8182DD075002A9F31 /* InfoPlist.strings in Resources */,
 				FE3D76D6182DD075002A9F31 /* Images.xcassets in Resources */,
-				FE3D76CE182DD075002A9F31 /* Credits.rtf in Resources */,
-				FE3D76D4182DD075002A9F31 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +252,7 @@
 			files = (
 				FE3D76CA182DD075002A9F31 /* main.m in Sources */,
 				FE3D76D1182DD075002A9F31 /* ZYAppDelegate.m in Sources */,
+				FEEB3B18182DD10800F989ED /* ZYSimpleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,22 +281,6 @@
 				FE3D76C7182DD075002A9F31 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FE3D76CC182DD075002A9F31 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE3D76CD182DD075002A9F31 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		FE3D76D2182DD075002A9F31 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE3D76D3182DD075002A9F31 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		FE3D76E4182DD075002A9F31 /* InfoPlist.strings */ = {
@@ -465,6 +447,7 @@
 				FE3D76ED182DD076002A9F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE3D76EE182DD076002A9F31 /* Build configuration list for PBXNativeTarget "StaringTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +456,7 @@
 				FE3D76F0182DD076002A9F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

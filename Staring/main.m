@@ -6,9 +6,14 @@
 //  Copyright (c) 2013 And a Dinosaur. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import "ZYAppDelegate.h"
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
+
+int main (int argc, const char * argv[]) {
+    NSApplication *application = [NSApplication sharedApplication];
+    ZYAppDelegate *appDelegate = [[ZYAppDelegate alloc] init];
+    application.delegate = appDelegate;
+    [application run];
+
+    return EXIT_SUCCESS;
 }
