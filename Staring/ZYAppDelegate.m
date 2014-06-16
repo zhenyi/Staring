@@ -46,7 +46,6 @@
     self.menu = [[NSMenu alloc] initWithTitle:@"Staring"];
     [self.menu addItemWithTitle:@"" action:nil keyEquivalent:@""];
     [self.menu addItemWithTitle:@"" action:nil keyEquivalent:@""];
-    [self.menu addItemWithTitle:@"" action:nil keyEquivalent:@""];
     [self.menu addItem:[NSMenuItem separatorItem]];
     [self.menu addItemWithTitle:@"Quit Staring" action:@selector(quit) keyEquivalent:@""];
 }
@@ -81,11 +80,9 @@
     self.label.title = @"\u0ca0_\u0ca0";
 
     NSMenuItem *statusMenuItem = [self.menu itemAtIndex:0];
-    NSMenuItem *statusMenuItem2 = [self.menu itemAtIndex:1];
-    NSMenuItem *onOffMenuItem = [self.menu itemAtIndex:2];
-    statusMenuItem.title = @"I am Staring at You";
-    statusMenuItem2.title = @"Your Mac Cannot Sleep";
-    onOffMenuItem.title = @"Stop Staring";
+    NSMenuItem *onOffMenuItem = [self.menu itemAtIndex:1];
+    statusMenuItem.title = @"Staring: On";
+    onOffMenuItem.title = @"Turn Staring Off";
     onOffMenuItem.action = @selector(stopStaring);
 }
 
@@ -95,11 +92,9 @@
     self.label.title = @"-_-";
 
     NSMenuItem *statusMenuItem = [self.menu itemAtIndex:0];
-    NSMenuItem *statusMenuItem2 = [self.menu itemAtIndex:1];
-    NSMenuItem *onOffMenuItem = [self.menu itemAtIndex:2];
-    statusMenuItem.title = @"I am Not Staring at You";
-    statusMenuItem2.title = @"Your Mac Can Now Sleep";
-    onOffMenuItem.title = @"Start Staring";
+    NSMenuItem *onOffMenuItem = [self.menu itemAtIndex:1];
+    statusMenuItem.title = @"Staring: Off";
+    onOffMenuItem.title = @"Turn Staring On";
     onOffMenuItem.action = @selector(startStaring);
 }
 
