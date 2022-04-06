@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Create views
 
     private func createStatusItem() {
-        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        statusItem = NSStatusBar.system.statusItem(withLength: 30)
     }
 
     private func createMenu() {
