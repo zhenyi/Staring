@@ -20,6 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         createMenu()
         createButton()
         startStaring()
+        stopStaring()
     }
 
     // MARK: - Create views
